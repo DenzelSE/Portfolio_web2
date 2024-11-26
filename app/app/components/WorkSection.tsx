@@ -1,7 +1,8 @@
 import React from 'react';
-import { Project } from '@/types';
+import { Project } from '../types';
 import { ProjectCard } from './ProjectCard';
-import { Section } from '../layout/Section';
+import { Section } from '../layouts/Section';
+import { motion } from 'framer-motion';
 
 interface WorkSectionProps {
   projects: Project[];

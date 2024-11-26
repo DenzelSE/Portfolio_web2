@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Section } from 'lucide-react';
 
 interface HeroSectionProps {
   name: string;
@@ -38,3 +39,5 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ name, title, onViewWor
     </div>
   </Section>
 );
+
+export { Section };

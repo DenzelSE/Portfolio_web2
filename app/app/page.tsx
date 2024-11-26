@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { LoadingScreen } from '@/components/layout/LoadingScreen';
-import { HeroSection } from '@/components/sections/HeroSection';
-import { WorkSection } from '@/components/sections/WorkSection';
-import { ContactSection } from '@/components/sections/ContactSection';
-import { Project } from '@/types';
+import { LoadingScreen } from './layouts/LoadingScreen';
+import { HeroSection } from './components/HeroSection';
+import { WorkSection } from './components/WorkSection';
+import { ContactSection } from './components/ContactSection';
+import { Project } from './types';
 
 const projects: Project[] = [
   {
@@ -62,3 +62,4 @@ export default function Home() {
       </motion.div>
     </AnimatePresence>
   );
+  }

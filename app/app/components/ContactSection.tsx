@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Section } from '../layout/Section';
+import { Section } from '../layouts/Section';
 
 interface ContactSectionProps {
   onBackToTop: () => void;
